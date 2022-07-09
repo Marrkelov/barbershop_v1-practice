@@ -1,0 +1,80 @@
+/* open sans - 400,600,700
+raleway - 700*/
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+:root {
+  --white-color: #ffffff;
+  --secondary-bg-color: #f7f7f7;
+  --primary-color: #303030;
+  --secondary-color: #555555;
+  --info-color: #9da4bd;
+  --title-color: rgba(157, 164, 189, 0.6);
+  --accent-color: #ff6c00;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: var(--white-color);
+}
+
+.title {
+  font-family: "Raleway", sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.suptitle {
+}
+
+.section-description {
+}
+
+/* header */
+
+.menu-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  /* color: var(--white-color); */
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+
+.tel-number {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  /* color: var(--white-color); */
+}
+
+.tel-number:hover,
+.tel-number:focus {
+  color: var(--accent-color);
+}
+
+.modal-btn {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: var(--white-color);
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--accent-color);
+}
